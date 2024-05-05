@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do List Project</title>
+</head>
+<body>
+    <header>
+        <nav id="headersec">
+            <h1>
+                TaskScheduler
+            </h1>
+            <ul>
+                <li><a href="" onclick="avoidrefersh(event)">Home</a></li>
+                <li><a href="" onclick="avoidrefersh(event)">About</a></li>
+                <li><a href="" onclick="avoidrefersh(event)">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sectionid">
+        <!--the  div tag section  for adding the taks-->
+        <div id="demo">
+            <div class="contentalignment">
+                <h1>Task_name</h1>
+
+                <form action="">
+                    <label for="Description">Description:</label><br>
+                    <textarea name="" id="" placeholder="Enter the Description" cols="30" rows="4"></textarea>
+                    <label for="time">Goal-time:</label>
+                    <input type="date">
+                    
+                </form>
+                <button onclick="setfunction()" class="setfun">set</button>
+                <button onclick="deletefunction()" class="delfun">Delete</button>
+            </div>
+        
+                      
+        </div>
+        <!--the div section for vreate the desktop for get  the new content-->
+        <div id="inputwindow">
+            <h1 >Welcome!..</h1>
+            <label class="lablecls">Taskname :</label>
+            <input type="text" id="tasknameinput">
+            <label class="lablecls">Time</label>
+            <input type="date" class="timepad" >
+            <label class="lablecls">content</label>
+            <textarea placeholder="Enter the contetnt" cols="70" rows="3" id="Descriptionvalue"></textarea>
+            <button onclick="createthetaskfunction()">Set</button>       
+        </div>
+        <div id="add">
+            <p onclick="addbuttonfunction(event)">+</p>
+        </div>
+
+        
+    </section>
+    
+    <footer id="footerend">
+        <p>Contact : mugeshmsd5@gmail.com</p>
+
+        <p>salem-636008</p>
+    </footer>
+    <script src="javascript/action.js"></script>
+</body>
+</html>
